@@ -1,0 +1,6 @@
+parameters:
+  account.command_dispatcher.class: 'MWojcik\Wallet\Application\Account\AccountCommandDispatcher'
+
+services:
+  account.command_dispatcher:
+    class: '%account.command_dispatcher.class%'

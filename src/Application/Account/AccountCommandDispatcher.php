@@ -22,6 +22,7 @@ class AccountCommandDispatcher implements CommandDispatcher
 
     public function execute(Command $command): void
     {
+        echo "dupa";
         // TODO: Implement execute() method.
     }
 
